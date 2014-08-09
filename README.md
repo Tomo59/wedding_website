@@ -1,4 +1,4 @@
-wedding_website
-===============
+This is a simple website for Thomas & Marie wedding :
 
-Website for our wedding
+http://marions-les.gambier.in
+
