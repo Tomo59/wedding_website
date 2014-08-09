@@ -1,5 +1,25 @@
+/* Fonts */
+@font-face {
+    font-family: "myGearedSlab-Thin";
+    src: url('fonts/GearedSlab-Thin.eot'); /* IE9 Compat Modes */
+    src: url('fonts/GearedSlab-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/GearedSlab-Thin.woff') format('woff'), /* Modern Browsers */
+         url('fonts/GearedSlab-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('fonts/GearedSlab-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: "myMontez-Regular";
+    src: url('fonts/Montez-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Montez-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Montez-Regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Montez-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('fonts/Montez-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: myGearedSlab-Thin, Helvetica, Arial, sans-serif;
   padding-top: 0px;
   font-size: 13px;
   color:#575757;
@@ -12,8 +32,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: Impact, Charcoal, sans-serif;
-  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: myMontez-Regular, sans-serif;
 }
 
 h1 {
@@ -34,13 +53,13 @@ h1 a:hover {
 }
 
 h3 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: myMontez-Regular, sans-serif;
   font-weight: 200;
   font-size:50px;
   font-weight: 100;
 }
 h4 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: myMontez-Regular, sans-serif;
   font-size: 40px;
   font-weight:100;
   margin-bottom:5px;
