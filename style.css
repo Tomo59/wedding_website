@@ -1,0 +1,166 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 0px;
+  font-size: 13px;
+  color:#575757;
+  text-align: justify;
+
+}
+.footer .last{
+  border-bottom: solid 16px #2E2E2E;
+  padding-bottom: 30px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Impact, Charcoal, sans-serif;
+  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 1;
+  font-weight: 100;
+  color:#DCE0E2;
+}
+
+h1 a {
+  text-decoration: none;
+  color:#DCE0E2;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color:#D8D8D8;
+}
+
+h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size:50px;
+  font-weight: 100;
+}
+h4 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight:100;
+  margin-bottom:5px;
+  margin-top:30px;
+  font-weight: 100;
+  color: #FF0099;
+}
+
+h5 {
+  font-size: 20px;
+  margin-bottom:0;
+  margin-top: 35px;
+}
+
+h6 {
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.lead {
+  font-size: 75px;
+  /*color: #FF007A;*/
+  font-weight: 100;
+  line-height: 45px;
+}
+li {
+
+  padding-left: 0;
+  margin-left:0;
+}
+ul {
+  list-style-type:none;
+  margin:0;
+}
+.masthead{
+  height: 50px;
+}
+.container-narrow {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+
+}
+
+.jumbotron {
+  border-top: solid 16px #2E2E2E;
+  text-align: center;
+  z-index:100;
+}
+
+.jumbotron .row-fluid{
+  margin-top:15px;
+}
+.center {
+  text-align: center;
+}
+
+.container-level2 {
+  padding-bottom: 30px;
+  background-color: #F1F1EF;
+}
+
+.no-margin {
+  margin:0;
+}
+
+img.date {
+  margin-top: 15px;
+}
+img.ticket {
+  position: relative;
+  width:90%;
+  float:right;
+  margin-bottom:-30px;
+}
+
+div.mainpic {
+  padding-left:30px;
+  padding-top:90px;
+}
+
+img.border {
+  margin-bottom: 10px;
+  border: solid 1px silver;
+}
+
+.container-level2 .container-narrow {
+  margin-top: 60px;
+}
+.container-level2 .row-fluid p + h4 {
+  margin-top: 28px;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+  color: white;
+  background-color: #333;
+}
+hr {
+  color: #F1F1EF;
+  background-color: white;
+  height: 1px;
+  margin:0;
+  padding:10px;
+
+}
+a {
+  color: #333;
+  text-decoration: underline;
+}
+@media (max-width: 640px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  h1 {
+    font-size: 65px;
+  }
+
+}
